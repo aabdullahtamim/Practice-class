@@ -1,0 +1,157 @@
+/* common css */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ 
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 1200px;
+    margin: 0px auto;
+}
+
+
+/* menu start */
+.menu{
+    margin: 20px 0;
+    /* margin-left: 15px; */
+   
+
+}
+.menu .container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.menu .container .logo img{
+    width: 80px;
+    /* height: 60px; */
+    margin: 8px 0 0 8px;
+}
+
+.menu .container .list{
+    margin-left: auto;
+}
+
+.menu .container .list ul{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.menu .container .list li{
+    margin-right: 35px; 
+    font-size: 25px;
+    display: inline-block;
+    transition: all linear 0.4s ;
+}
+.menu .container .list li a:hover{
+    color: #ED1B24;
+}
+
+.menu .list a{
+    color:#000000;
+   
+
+}
+
+
+.menu .btn a{
+    padding: 10px 30px;
+    background-color:#ED1B24;
+    font-size: 22px;
+    border: 1.6px dotted black;
+    border-radius: 5px;
+    color: white;
+    transition: all linear 0.3s ;
+
+}
+.menu .btn a:hover{
+    color: red;
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* flag */
+
+.main{
+    margin-top: 100px;
+    background-color: mediumaquamarine;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+}
+.main h2{
+    position: relative;
+    top: ;
+}
+
+.container-1{
+    width: 50%;
+    height: 400px;
+    background-color: rgb(0, 128, 0);
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url(); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* background-position: center; */
+    /* background: url("/images/blog-1.png") no-repeat center/cover; */
+
+    
+}
+
+.box-1{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border-radius: 50%;
+}
+/* .box-2{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(255, 0, 225);
+    border-radius: 50%;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+} */

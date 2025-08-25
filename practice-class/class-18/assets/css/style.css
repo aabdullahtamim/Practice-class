@@ -1,0 +1,308 @@
+:root{
+    --button-color-01:#5965E7 ;
+    --button-color-02:#0652DD ;
+    --primary-color: #5965E7;
+    --primary-background:aqua ;
+    --body-color:#3E4A65 ;
+    --tittle-color:#0E1336 ;
+    --white-color:white ;
+    --primary-font: "Montserrat",sans-serif ;
+    --font-normal:400 ; 
+    --font-bold:700 ; 
+    --transition: all ease .3s;
+}
+/* common css */
+body {
+    font-family: var(--primary-font);
+    font-weight: var(--font-normal);
+    color: var(--body-color);
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: var(--font-bold);
+    color: var(--tittle-color);
+}
+.text-primary{
+    color: var(--primary-color);
+}
+.bg-primary{
+    background-color: var(--primary-background);
+}
+.text-body{
+    color: var(--body-color);
+}
+
+.btn-01{
+    padding: 12px 25px ;
+    color: var(--white-color);
+    background-color: var(--button-color-01);
+    border-radius:5px ;
+    transition: var(--transition);
+    &:hover{
+        border: 1px dotted var(--tittle-color);
+        color: var(--primary-color);
+        background-color: var(--white-color);
+        box-shadow: 0 0 10px var(--primary-color);
+
+    }
+    i {
+        font-size: 12px;
+    }
+
+}
+
+.btn-02 {
+    padding: 12px 25px;
+    background-color: var(--button-color-02);
+    color: var(--white-color);
+    border-radius: 5px;
+    transition: var(--transition);
+    
+    &:hover {
+        border: 1px dotted var(--tittle-color);
+        color: var(--button-color-02);
+        background-color: var(--white-color);
+        box-shadow: 0 0 10px var(--primary-color);
+    }
+
+    i {
+        font-size: 12px;
+    }
+}
+
+
+/* header */
+.header{
+    background-image: linear-gradient(to right, #CBD7EE, #DBDEFF);
+    padding: 30px 0 10px 0;
+    /* margin-top: 30px; */
+    .logo{
+        img{
+            max-width: 140px;
+        }
+    }
+    .list {
+        a {
+            display: inline-block;
+            margin: 0 6px;
+            transition: var(--transition); 
+
+            &:hover {
+                color: var(--primary-color);
+                font-weight: var(--font-bold);
+            }
+        }
+        ul li:first-child {
+            a {
+                color: var(--primary-color);
+                font-weight: var(--font-bold);
+            }
+        }
+    }
+    .btn{
+        a {
+            font-size: 15px;
+            font-weight: var(--font-bold);
+            transition: var(--transition);
+        }
+
+        a:first-child {
+            color: black;
+            margin-right: 15px;
+
+            &:hover {
+                color: var(--primary-color);
+            }
+        }
+
+    }
+}
+
+
+/* banner start */
+.hero{
+    .col{
+        width: 55%;
+    }
+    .col-1{
+        width: 45%;
+    } 
+    .content{
+        h1{
+            font-size: 48px;
+            font-weight: var(--font-bold);
+            line-height: 62px;
+            max-width: 810px;
+
+            u{
+                color: var(--primary-color);
+                display: block;
+            }
+        }
+
+        p{
+            font-size: 16px;
+            line-height: 26px;
+            font-weight: var(--font-normal);
+            max-width: 550px;
+            margin-top: 25px;
+            margin-bottom: 30px;
+        }
+    }
+
+    .image{
+        img{
+            width: 100%;
+        }
+    }
+}
+
+
+
+
+/* partner start  */
+.partner{
+    margin: 70px 0;
+    h5{
+        font-size: 24px;
+        font-weight: 500;
+        text-align: center;
+        color: #0E1336;
+        margin-bottom: 30px;
+    }
+
+    .item-container{
+            gap: 15px;
+    }
+
+    .item{
+         width: calc(100% / 5);
+         height: 128px;
+          border: 1px solid #E5EDFF;
+         border-radius: 8px;   
+    }
+}
+
+/* discover start  */
+
+.discover{
+    background-color: #F5F9FF;
+    padding: 50px 0;
+
+    h2{
+        text-align: center;
+        font-size: 36px;
+        font-weight: var(--font-bold);
+        margin-bottom: 40px;
+
+        span{
+            color: var(--primary-color);
+        }
+    }
+
+    .item-container{
+        gap: 50px;
+        .item{
+            max-width: calc(100% /3);
+            background-color: #ffffff; 
+            border-radius: 10px;
+
+            &:hover{
+                box-shadow: 0px 0px 20px var(--primary-color);
+            }
+             .image{
+                position: relative;
+                img{
+                    width: 100%;
+                }
+
+                p{
+                    position: absolute;
+                    top: 15px;
+                    right: 15px;
+                    z-index: 10;
+                    background-color: rgba(236, 228, 228, 0.5);
+                    padding: 5px;
+                    border-radius: 3px;
+                    color: black;
+                    
+                }
+             }
+
+             .discover-content{
+                padding: 15px 20px 20px 20px;
+
+                h4{
+                    font-size: 22px;
+                    margin-bottom: 7px;
+                }
+
+                .item-row{
+                    margin-bottom: 10px;
+                    margin-top: 13px;
+                   p{
+                    color: var(--primary-color);
+
+                    i{
+                        margin-right: 5px;
+                    }
+                   } 
+                }
+
+                .progress{
+                    height: 10px;
+                    width: 100%;
+                    display: block;
+                    background-color: #F5F9FF;
+                    border-radius: 10px;
+                    position: relative;
+                }
+
+                .progress::before{
+                    content: " ";
+                    width: 70%;
+                    height: 100%;
+                    border-radius: 10px;
+                    background-color: var(--primary-color);
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    z-index: 10;
+                }
+
+                .item-row-bottom{
+                    p{
+                        color: rgba(0, 0, 0, 0.8);
+                        font-weight: var(--font-bold);
+                    }
+                }
+
+                .discover-btn{
+                   margin-top: 30px ;
+                   
+                   a{
+                    background-color: white;
+                    color: var(--primary-color);
+                    border: 1px solid #e7ecf5;
+
+                    &:hover{
+                      background-color: var(--primary-color);  
+                      color: white;
+                      border: none;
+                    }
+                   }
+                }
+             }
+        }
+    }
+
+    .bottom-btn{
+        margin-top: 60px;
+    }
+}
+
+
+

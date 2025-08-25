@@ -1,0 +1,38 @@
+:root{
+    --btn-color-01:#5965E7 ;
+    --btn-color-02:#0554F2;
+    --primary-background: #5965E7;
+    --body-color: #3e4a65;
+    --tittle-color: #0e1336;
+    --primary-color: #5965e7;
+    --white-color: white;
+    --primary-font: Montserrat,sans-serif ;
+    --font-normal:400 ;
+    --font-bold:700 ;
+    --transition: all ease .3s;
+}
+
+body{
+    color: #3E4A65;
+}
+.text-body {
+    color: var(--body-color);
+}
+.btn-01{
+    padding: 10px 20px;
+    background-color: var(--btn-color-01);
+    border-radius: 5px;
+    &:hover{
+        box-shadow: 0 0 10px var(--primary-color);
+        background: var(--white-color);
+        color: var(--primary-color);
+        border: 1px dotted black;
+    }
+}
+
+/* header start */
+header{
+    .container{
+
+    }
+}

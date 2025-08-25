@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yellow Cafe</title>
+  <link rel="stylesheet" href="src/style.css">
+
+  <link rel="shortcut icon" href="public/images/favicon.png" type="image/png">
+</head>
+<body>
+
+  <!-- Menu start -->
+  <div class="w-[235px] bg-white h-screen p-[20px] fixed left-0 top-0" id="leftSidebar">
+    
+  </div>
+  <!-- Menu end -->
+
+  <div class=" fixed left-[255px] top-0">
+    <!-- Header start -->
+     <div class="w-[calc(100vw-255px)] flex justify-between items-center h-[70px] pr-[20px]" id="headerArea">
+      
+     </div>
+    <!-- Header end -->
+
+    <!-- Body start -->
+    <div class="flex">
+      <!-- Left-side start -->
+      <div class="w-[calc(100vw-555px)] overflow-y-scroll scrollbar-none h-[calc(100vh-70px)]">
+        <!-- Banner start -->
+        <div class="rounded-xl overflow-hidden" id="bannerArea">
+          
+        </div>
+        <!-- Banner end -->
+
+        <!-- Food category start -->
+         <div id="foodCategoryArea"></div>
+        <!-- Food category end -->
+
+        <!-- Food carts start -->
+         
+
+ 
+        <div id="foodListArea"></div>
+
+        <!-- Food carts end -->
+      </div>
+
+      <!-- Left-side end -->
+
+      <!-- Right-side start -->
+      <div class="w-[260px] mx-[20px] bg-white rounded-[15px]">
+          <div class="p-[15px] relative">
+
+            <div class="">
+              
+
+              <div class=" mb-1 grid grid-cols-[70%_30%] h-[70px] p-2 gap-2 items-center rounded-md border border-[#DDDDDD] bg-[url(../public/images/food-1.png)] bg-no-repeat bg-cover">
+                
+                <div class="">
+                  <span class=" text-3">Burger Name</span>
+                  <p class="font-bold text-[16px]">$ 250</p>
+                </div>
+                <div class="text-center">
+                  <span class="text-primary">$ 500</span>
+                  <div class="flex justify-between ">
+                    <span class="px-1 border bg-[#ddd] rounded-[40px] ">-</span>
+                    <span class="px-1.5 border bg-[#ddd]">2</span>
+                    <span class="px-1 border bg-[#ddd] rounded-[40px] ">+</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class=" mb-1 grid grid-cols-[70%_30%] h-[70px] p-2 gap-2 items-center rounded-md border border-[#DDDDDD] bg-[url(../public/images/food-1.png)] bg-no-repeat bg-cover">
+                
+                <div class="">
+                  <span class=" text-3">Burger Name</span>
+                  <p class="font-bold text-[16px]">$ 250</p>
+                </div>
+                <div class="text-center">
+                  <span class="text-primary">$ 500</span>
+                  <div class="flex justify-between ">
+                    <span class="px-1 border bg-[#ddd] rounded-[40px] ">-</span>
+                    <span class="px-1.5 border bg-[#ddd]">2</span>
+                    <span class="px-1 border bg-[#ddd] rounded-[40px] ">+</span>
+                  </div>
+                </div>
+              </div>
+
+              
+              
+            </div>
+            
+            <!-- <div class="fixed right-0 bottom-0">
+              <div class="text-white text-center bg-primary rounded-[7px] py-[20px] ">
+                <span>Your Order No</span>
+                <span class="block font-[700] text-[18px]">#764537</span>
+              </div>
+            </div> -->
+
+          </div>
+      </div>
+      <!-- Right-side end -->
+      
+    </div>
+    <!-- Body end -->
+  </div>
+
+  <div id="popupArea"></div>
+
+  
+
+
+
+
+  <script type="module" src="src/main.js"></script>
+</body>
+</html>
+
+
