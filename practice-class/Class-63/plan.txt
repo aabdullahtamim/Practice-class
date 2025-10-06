@@ -1,0 +1,21 @@
+Blog website
+
+WEbsite ui
+1. header/ navbar
+2.Banner /call to action 
+3.category 
+4.Blog
+5.search 
+6.footer
+
+website backend
+1.Blog data
+2.category data
+3.authentication
+4.form validation
+5.image uploading
+6.email sending
+7.payment get away setup
+8.JWT token
+9.browser storage(cookies)
+10.server uploading
