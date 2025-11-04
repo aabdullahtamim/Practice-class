@@ -1,5 +1,4 @@
 import type { NextFunction, Request, Response } from "express"
-
 import httpStatus from "http-status-codes"
 import { User } from "./user.model.js"
 import { UserServices } from "./user.services.js"
