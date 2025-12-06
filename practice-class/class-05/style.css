@@ -1,0 +1,48 @@
+/* external css */
+
+form{
+    background-color: rgb(53, 221, 221);
+    text-align: center;
+    
+}
+
+p{
+    color: rgb(0, 0, 0);
+}
+
+input{
+    color: blueviolet;
+
+}
+
+
+label{ 
+    color: rgb(255, 255, 255);
+
+}
+
+
+h1{
+    color: #000;
+}
+
+b{
+    color: red;
+}
+
+
+h2{
+    background-color:#A8CD89 ;
+    color: blueviolet;
+    text-align: center;
+    text-transform: capitalize;
+}
+.p01{
+    background-color: #85A98F;
+    color: white;
+    text-align: justify;
+}
+
+#p02{
+    background-color:#d85f47 ;
+}

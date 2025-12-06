@@ -1,0 +1,84 @@
+/* common css */
+
+*{
+    margin: 0;
+    padding:0 ;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1140px;
+}
+/* menu start */
+
+.menu-area{
+    border-bottom: 2px solid black;
+}
+
+.menu-area ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-area li{
+    text-align: center;
+}
+
+.menu-area li a{
+    background-color: aquamarine;
+    margin-right: 10px;
+    padding: 12px;
+    text-transform: capitalize;
+    display: inline-block;
+    
+}
+
+/* services stat */
+.services{
+    background-color: #6c5ce7;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.services .services-item{
+    width: calc(33.3333% - 20px);
+    background-color:#81ecec;
+    margin-right: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    
+}
+
+.services .services-item h3{
+    text-transform: capitalize;
+}
+
+/* technology start */
+.technology{
+    margin: 120px 0;
+    padding: 120px 0;
+    /* background-color: #6ab04c; */
+}
+.technology .container{
+    /* background-color: bisque; */
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.technology .container .tech-item{
+    width: calc((100% / 6 ) - 15px);
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px dotted black;
+    border-radius: 6px;
+}

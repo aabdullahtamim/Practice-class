@@ -1,0 +1,63 @@
+/* common css */
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+
+a{
+    text-transform: none;
+}
+
+.container{
+   width: 1150px;
+}
+
+
+/* banner */
+.banner{
+    margin: 70px 0;
+    background-color: aquamarine;
+    
+   
+}
+ 
+.banner .container{
+    background-color: bisque;
+    align-items: center;
+    margin: 0 auto;
+   
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 400px;
+    position: relative;
+
+}
+
+.banner-list{
+    /* background-color: blueviolet; */
+    justify-content: center;
+    width: 80%;
+    color: white;
+    /* padding-left: auto; */
+    padding: 10px;
+    position: absolute;
+    bottom: 10px;
+
+
+}
+
+.banner .container .banner-list p{
+    display: block;
+
+}
+ 
+.banner .container .banner-list a{
+    margin-top: 20px;
+    padding: 10px 20px ;
+    background-color: bisque;
+    display: inline-block;
+}
+

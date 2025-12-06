@@ -1,0 +1,19 @@
+
+class-01
+
+todays lesson was about extention 
+
+For image 
+.jpg
+.jpeg
+.png
+
+for audio
+.mp3
+
+
+
+
+
+for video 
+.mp4

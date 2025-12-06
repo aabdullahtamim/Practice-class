@@ -1,0 +1,29 @@
+Blog website
+
+WEbsite ui
+1. header/ navbar - done
+2.Banner /call to action - done
+3.category - done
+4.Blog - done
+5.search - done
+6.footer - done
+7.blog details -done 
+8.contact us page - done
+9.login page
+10.registration page
+11.forgot page
+12.reset password page
+13.admin panel
+
+
+website backend
+1.Blog data
+2.category data
+3.authentication
+4.form validation
+5.image uploading
+6.email sending
+7.payment get away setup
+8.JWT token
+9.browser storage(cookies)
+10.server uploading
